@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main>
         {/* main div */}
-        <div className="w-full mx-auto flex flex-col lg:flex-row align-center justify-center pt-16 pb-20 px-4 sm:px-8 md:px-16 lg:w-full lg:px-0 xl:w-1/2">
+        <div className="w-full mx-auto flex flex-col lg:flex-row align-center justify-center pt-16 pb-20 px-4 sm:px-8 md:px-16 lg:w-full lg:px-0 xl:w-3/4 2xl:w-2/3">
           {/* image */}
           <div className="mb-10 lg:mb-0 lg:w-4/12 lg:pt-20 lg:border-r-2 border-dashed border-stone-100">
             <Image
