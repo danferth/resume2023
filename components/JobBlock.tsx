@@ -1,5 +1,3 @@
-import React from "react";
-
 const JobBlock = (props: any) => {
   return (
     <article className="mt-4 mb-6">
