@@ -3,8 +3,15 @@ import Layout from "../components/Layout";
 import Input from "../components/input";
 import TextArea from "../components/TextArea";
 import SubmitButton from "../components/Submit";
-import { useForm } from "react-hook-form";
+import { useForm, SubmitHandler } from "react-hook-form";
 import axios from "axios";
+
+type FormValues = {
+  name: string;
+  email: string;
+  message: string;
+};
+
 const Contact = () => {
   const {
     register,
@@ -12,11 +19,11 @@ const Contact = () => {
     watch,
     reset,
     formState: { isSubmitSuccessful, errors, isDirty },
-  } = useForm();
+  } = useForm<FormValues>();
 
-  const [lastUser, setLastUser] = useState();
+  const [lastUser, setLastUser] = useState<string | undefined>();
   const userName = watch("name", "your");
-  const onSubmit = async (data: {
+  const onSubmit: SubmitHandler<FormValues> = async (data: {
     name: string;
     email: string;
     message: string;
