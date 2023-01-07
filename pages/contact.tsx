@@ -66,7 +66,7 @@ const Contact = () => {
               />
               {errors.name?.type === "required" && (
                 <span className={errorStyle} role="alert">
-                  Gotta know who I'm talking to.
+                  Gotta know who I&rsquo;m talking to.
                 </span>
               )}
             </Input>
