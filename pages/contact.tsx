@@ -44,7 +44,7 @@ const Contact = () => {
         </h1>
         {isSubmitSuccessful && !isDirty && (
           <p className="bg-lime-50 text-lime-600 border border-lime-300 shadow-sm text-xs text-center rounded-md px-4 py-3 mb-10">
-            {`Thanks for contacing me ${lastUser}, I\'ll be in touch soon!`}
+            {`Thanks for contacing me ${lastUser}, I&rsquo;ll be in touch soon!`}
           </p>
         )}
         <div>
@@ -59,7 +59,7 @@ const Contact = () => {
               />
               {errors.name?.type === "required" && (
                 <span className={errorStyle} role="alert">
-                  Gotta know who I'm talking to.
+                  Gotta know who I&rsquo;m talking to.
                 </span>
               )}
             </Input>
@@ -84,7 +84,7 @@ const Contact = () => {
                 rows={4}
                 id="message"
                 className="block w-full border-0 p-1.5 text-stone-900 placeholder-stone-500 focus:ring-0 sm:text-sm"
-                placeholder={`Suggestion: How\'s it going Dan, this is ${userName}...`}
+                placeholder={`Suggestion: How&rsquo;s it going Dan, this is ${userName}...`}
                 {...register("message", { required: true })}
               />
               {errors.message?.type === "required" && (
