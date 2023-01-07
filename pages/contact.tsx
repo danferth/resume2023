@@ -44,7 +44,7 @@ const Contact = () => {
         </h1>
         {isSubmitSuccessful && !isDirty && (
           <p className="bg-lime-50 text-lime-600 border border-lime-300 shadow-sm text-xs text-center rounded-md px-4 py-3 mb-10">
-            {`Thanks for contacing me ${lastUser}, I'll be in touch soon!`}
+            {`Thanks for contacing me ${lastUser}, I\'ll be in touch soon!`}
           </p>
         )}
         <div>
