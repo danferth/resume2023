@@ -1,10 +1,4 @@
-const Input = (props: {
-  id: string;
-  label: string;
-  type: string;
-  name: string;
-  placeholder: string;
-}) => {
+const Input = (props: { id: string; label: string; children: any }) => {
   return (
     <div
       className="mb-8 xl:mb-10
@@ -21,13 +15,7 @@ const Input = (props: {
       >
         {props.label}
       </label>
-      <input
-        type={props.type}
-        name={props.name}
-        id={props.id}
-        className="block w-full border-0 p-1.5 text-stone-900 placeholder-stone-500 focus:ring-0 sm:text-sm"
-        placeholder={props.placeholder}
-      />
+      {props.children}
     </div>
   );
 };

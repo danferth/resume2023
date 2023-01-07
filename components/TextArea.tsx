@@ -1,9 +1,4 @@
-const TextArea = (props: {
-  id: string;
-  label: string;
-  name: string;
-  placeholder: string;
-}) => {
+const TextArea = (props: { id: string; label: string; children: any }) => {
   return (
     <div
       className="relative 
@@ -19,13 +14,7 @@ const TextArea = (props: {
       >
         {props.label}
       </label>
-      <textarea
-        rows={4}
-        name={props.name}
-        id={props.id}
-        className="block w-full border-0 p-1.5 text-stone-900 placeholder-stone-500 focus:ring-0 sm:text-sm"
-        placeholder={props.placeholder}
-      />
+      {props.children}
     </div>
   );
 };
