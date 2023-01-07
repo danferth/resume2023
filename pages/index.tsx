@@ -15,7 +15,7 @@ export default function Home() {
             src={profileImage}
             width={150}
             height={150}
-            className="rounded-full mx-auto shadow-md ring-4 ring-stone-200 mb-10 lg:mb-0 lg:mx-0 lg:w-20 lg:h-20 lg:ml-4 lg:mr-8"
+            className="rounded-full mx-auto shadow-md ring-4 lg:ring-2 ring-amber-300 mb-10 lg:mb-0 lg:mx-0 lg:w-20 lg:h-20 lg:ml-4 lg:mr-8"
           />
           {/* head */}
           <div className="text-center lg:text-left">
@@ -31,8 +31,16 @@ export default function Home() {
         {/* body of resume */}
         <div className="">
           {/* description */}
-          <div className="mt-4 mb-8 border-l-0 border-r-0 border-2 border-stone-300 py-2 lg:border-b-0 lg:pt-10">
-            <p className="text-stone-700 text-base text-center leading-relaxed lg:text-stone-500 lg:text-left lg:max-w-2xl">
+          <div className="mt-4 mb-8 border-l-0 border-r-0 border-2 border-amber-500 py-2 lg:border-b-0 lg:pt-10">
+            <p
+              className="text-stone-700 text-base text-center leading-relaxed lg:text-stone-500 lg:text-left 
+            lg:max-w-2xl
+            lg:px-6 lg:py-4 
+            lg:border lg:border-amber-500 
+            lg:bg-stone-50 
+            lg:rounded-lg 
+            lg:shadow"
+            >
               Having worked in content creation, design, and development
               throughout my career and tackling the creative challenges posed
               across various industries, I am confident in overseeing and
