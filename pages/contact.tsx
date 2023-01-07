@@ -84,7 +84,7 @@ const Contact = () => {
                 rows={4}
                 id="message"
                 className="block w-full border-0 p-1.5 text-stone-900 placeholder-stone-500 focus:ring-0 sm:text-sm"
-                placeholder={`Suggestion: How's it going Dan, this is ${userName}...`}
+                placeholder={`Suggestion: How\'s it going Dan, this is ${userName}...`}
                 {...register("message", { required: true })}
               />
               {errors.message?.type === "required" && (
