@@ -3,34 +3,43 @@
     "jobTitle": "Lead Developer & Designer",
     "employer": "Thomson Instrument Company",
     "datesWorked": "09/2010 - present",
-    "description": "Thomson is a company that manufactures growth flasks and filtration equipment to sell to biotech labs worldwide. Currently, work as a lead developer and graphic designer. Throughout my employment, I have successfully redesigned, coded, and launched the company website multiple times as the company evolved. Also spearheaded a complete rebranding twice. Additionally have designed and built many internal applications for use by customers and in-house staff.",
+    "description": "Thomson manufactures and sells growth flasks and filtration equipment to biotech labs worldwide. Currently, work as a lead developer and graphic designer. Throughout my employment, I have successfully redesigned, coded, and launched the company website multiple times as the company evolved. Oversaw a complete rebranding delivering an application forward format centered on science first. Additionally have designed and developed many internal applications for use by customers and in-house staff.",
     "bullets": [
-      "Responsible for website and internal applications",
-      "Maintain hosting and database accounts",
-      "All product photography, illustration & video production"
+      "Designed & developed a brochure website to have the functionality of an e-commerce site to drive multiple funnels of lead generation",
+      "Built multiple internal web applications",
+      "Enhanced company website with GA4 analytics tracking for events specific to managements needs",
+      "Coordinate with management to diagnose trends in web traffic and improve site design as needed",
+      "Implementation of best practices in accessibility, responsive design & security",
+      "Oversee selection and manage hosting, database, & form endpoint accounts",
+      "Maintain and manage MailChimp marketing campaigns",
+      "Execute all product photography with post production in Photoshop ",
+      "Create in-house art illustrations using Adobe Illustrator",
+      "Designed company catalogs and fliers with Adobe InDesign"
     ]
   },
   {
     "jobTitle": "Freelance Web Developer & Graphic Designer",
     "employer": "AK illustrations",
     "datesWorked": "06/2009 - 09/2010",
-    "description": "AK illustrations was a self-employed business providing comprehensive print and web design services and marketing consultation. Mission was to provide services at a high standard while educating the client to take over campaigns on contract completion. Clients ranged from startups to large companies.",
+    "description": "AK illustrations, a self-employed business providing comprehensive print, web design, and marketing consultation services. Mission was to provide services at a high standard while educating the client to take responsibility of campaigns on contract completion. Clients ranged from startups to large companies.",
     "bullets": [
-      "Full-service print and media design",
-      "Website design and coding",
-      "Consultation and education of clients"
+      "Delivered design to print solutions in the form of marketing packages",
+      "Designed & coded Wordpress and PHP based websites",
+      "Coordinated a marketing plan and its required assets to resolve client challenges ",
+      "Consulted clients on integration and upgrade of current web technologies"
     ]
   },
   {
     "jobTitle": "Production Manager & Lead Graphic Designer",
     "employer": "Sign A Rama",
     "datesWorked": "08/2005 - 06/2009",
-    "description": "A Franchise sign company, producing everything from business cards to illuminated channel letters. Hired as a graphic designer and production assistant. Left company as production manager and lead graphic designer.",
+    "description": "Franchise sign company, producing everything from business cards to illuminated channel letters. Hired as a graphic designer and production assistant. Left company as production manager and lead graphic designer.",
     "bullets": [
-      "Design and layout of print marketing and signage",
-      "Consult on design, city code requirements, and cost of a project",
-      "Maintain vendor accounts, material selection, and purchase",
-      "Manage manufacture and installation of the final product"
+      "Designed print marketing and signage for enhanced visibility in high traffic areas",
+      "Oversaw design, city code requirements, and evaluated cost of projects",
+      "Conducted site survey and coordinated with onsite management",
+      "Procurement of materials for project builds and permits for installation",
+      "Manage manufacture and installation of final products"
     ]
   },
   {
@@ -39,10 +48,10 @@
     "datesWorked": "10/2004 - 08/2008",
     "description": "Hunter Legal Graphics specializes in technical illustration and detailed scale models. Hired as a technical illustrator and graphic designer, also worked on teams to build scale models for courtroom presentations.",
     "bullets": [
-      "Precise technical illustration for patent application",
-      "Orthographic and isometric mechanical drawings",
-      "Brochure and catalog design and layout",
-      "Scale models for courtroom presentation"
+      "Created precise technical illustration for patent submission",
+      "Detailed orthographic and isometric mechanical drawings",
+      "Brochure and catalog design and layout using Adobe Suite",
+      "Collaborated with other builders to create detailed scale models for courtroom presentation"
     ]
   }
 ]

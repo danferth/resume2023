@@ -22,7 +22,7 @@ const Contact = () => {
   } = useForm<FormValues>();
 
   const [lastUser, setLastUser] = useState<string | undefined>();
-  const userName = watch("name", "your");
+  const userName = watch("name", "person");
   const onSubmit: SubmitHandler<FormValues> = async (data: {
     name: string;
     email: string;
