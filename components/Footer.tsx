@@ -1,6 +1,25 @@
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
+
+  const socialLinks = [
+    {
+      social: "LinkedIn",
+      link: "https://www.linkedin.com/in/danferth/",
+      icon: {},
+    },
+    {
+      social: "GitHub",
+      link: "https://github.com/danferth",
+      icon: {},
+    },
+    {
+      social: "Website",
+      link: "https://danferth.dev",
+      icon: {},
+    },
+  ];
+
   return (
     <div
       className="footer 
@@ -14,9 +33,6 @@ const Footer = () => {
       <p className="text-sm text-stone-500 font-light mb-1.5">
         &copy; {year} Danferth
       </p>
-      {/* <p className="text-xs text-stone-300 font-light">
-        To see more and visit my portfolio see what the console logged ;)
-      </p> */}
     </div>
   );
 };

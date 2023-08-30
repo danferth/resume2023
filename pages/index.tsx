@@ -59,6 +59,7 @@ export default function Home() {
                   jobTitle={job.jobTitle}
                   employer={job.employer}
                   datesWorked={job.datesWorked}
+                  stack={job.stack}
                   description={job.description}
                   bullets={job.bullets}
                 />

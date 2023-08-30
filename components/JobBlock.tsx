@@ -15,6 +15,10 @@ const JobBlock = (props: any) => {
             </span>
           </h3>
         </div>
+        <div className=" text-amber-800 mb-2.5 text-sm font-light rounded-md bg-amber-200 px-2.5 py-1.5 lg:max-w-2xl">
+          <span className="font-medium mr-4">Stack:</span>
+          {props.stack}
+        </div>
         <p
           className="text-sm md:text-base text-stone-900 text-center leading-relaxed 
         pb-4 
