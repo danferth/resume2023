@@ -15,29 +15,49 @@ export default function Home() {
             src={profileImage}
             width={150}
             height={150}
-            className="rounded-full mx-auto shadow-md ring-4 lg:ring-2 ring-amber-300 mb-10 lg:mb-0 lg:mx-0 lg:w-20 lg:h-20 lg:ml-4 lg:mr-8"
+            className="rounded-full mx-auto shadow-md ring-4 lg:ring-2 ring-sky-600 mb-10 lg:mb-0 lg:mx-0 lg:w-20 lg:h-20 lg:ml-4 lg:mr-8"
           />
           {/* head */}
           <div className="text-center lg:text-left">
             <h1 className="font-semibold text-2xl md:text-3xl lg:text-4xl">
               Dan Klotz
             </h1>
-            <h2 className="italic font-light text-xs md:text-sm text-stone-400 lg:font-extralight lg:text-sm">
+            <h2 className="italic font-light text-xs md:text-sm text-slate-400 lg:font-extralight lg:text-sm">
               ( aka Danferth )
             </h2>
           </div>
+          <a
+            href="./dan_klotz_resume.pdf"
+            download={true}
+            className="ring-2 ring-sky-400 hover:ring-sky-200 hover:bg-lime-100 mt-4 w-8 h-8 lg:w-auto lg:h-auto lg:mt-0 mx-auto lg:mr-0 lg:ml-auto bg-lime-300 rounded-full lg:p-3 flex items-center justify-center text-sky-800 transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-5 h-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+              />
+            </svg>
+          </a>
         </div>
 
         {/* body of resume */}
         <div className="">
           {/* description */}
-          <div className="mt-4 mb-8 border-l-0 border-r-0 border-2 border-amber-500 py-2 lg:border-b-0 lg:pt-10">
+          <div className="mt-4 mb-8 border-l-0 border-r-0 border-2 border-lime-500 py-2 lg:border-b-0 lg:pt-10">
             <p
-              className="text-stone-700 text-base text-center leading-relaxed lg:text-stone-500 lg:text-left 
+              className="text-slate-700 text-base text-center leading-relaxed lg:text-slate-600 lg:text-left 
             lg:max-w-2xl
             lg:px-6 lg:py-4 
-            lg:border lg:border-amber-500 
-            lg:bg-stone-50 
+            lg:border lg:border-lime-500 
+            lg:bg-sky-50 
             lg:rounded-lg 
             lg:shadow"
             >

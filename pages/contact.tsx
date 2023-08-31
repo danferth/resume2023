@@ -22,7 +22,7 @@ const Contact = () => {
   } = useForm<FormValues>();
 
   const [lastUser, setLastUser] = useState<string | undefined>();
-  const userName = watch("name", "person");
+  const userName = watch("name", "...");
   const onSubmit: SubmitHandler<FormValues> = async (data: {
     name: string;
     email: string;
@@ -41,13 +41,13 @@ const Contact = () => {
     });
   };
 
-  const inputStyle = `relative block w-full border-0 p-1.5 text-stone-900 placeholder-stone-500 focus:ring-0 sm:text-sm`;
+  const inputStyle = `relative block w-full border-0 p-1.5 text-slate-900 placeholder-slate-500 focus:ring-0 sm:text-sm`;
   const errorStyle = `absolute bottom-1 right-1 bg-rose-100 px-2.5 py-0.5 rounded-full inline-block text-xs text-rose-800 italic text-right`;
   return (
     <Layout title="Contact">
-      <div className="text-center">
-        <h1 className="text-2xl text-stone-700 font-black mb-8">
-          Want to start a conversation?
+      <div className="text-center max-w-lg mx-auto">
+        <h1 className="text-2xl text-slate-700 font-black mb-8">
+          Have a Question?
         </h1>
         {isSubmitSuccessful && !isDirty && (
           <p className="bg-lime-50 text-lime-600 border border-lime-300 shadow-sm text-xs text-center rounded-md px-4 py-3 mb-10">
@@ -76,7 +76,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 className={inputStyle}
-                placeholder={`${userName}@email.com`}
+                placeholder={`your@email.com`}
                 {...register("email", { required: true })}
               />
               {errors.email?.type === "required" && (
@@ -90,7 +90,7 @@ const Contact = () => {
               <textarea
                 rows={4}
                 id="message"
-                className="block w-full border-0 p-1.5 text-stone-900 placeholder-stone-500 focus:ring-0 sm:text-sm"
+                className="block w-full border-0 p-1.5 text-slate-900 placeholder-slate-500 focus:ring-0 sm:text-sm"
                 placeholder={`Suggestion: How's it going Dan, this is ${userName}...`}
                 {...register("message", { required: true })}
               />
