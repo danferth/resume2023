@@ -10,7 +10,7 @@ const JobBlock = (props: any) => {
             <span className=" font-semibold text-slate-600 dark:text-slate-200">
               {props.employer}
             </span>
-            <span className="font-light text-slate-400 dark: italic lg:text-sm">
+            <span className="font-light text-slate-400 italic lg:text-sm">
               {props.datesWorked}
             </span>
           </h3>
