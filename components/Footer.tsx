@@ -21,6 +21,7 @@ const Footer = () => {
       <p className="text-sm text-slate-500 font-light mb-3">
         &copy; {year}{" "}
         <a
+          rel="noreferrer"
           className="hover:text-sky-600"
           href="https://danferth.dev"
           target="_blank"
@@ -29,11 +30,15 @@ const Footer = () => {
         </a>
       </p>
       <div className="flex items-center justify-center space-x-8">
-        <a href="https://github.com/danferth" target="_blank">
+        <a rel="noreferrer" href="https://github.com/danferth" target="_blank">
           <GitHub className={svgStyles} />
         </a>
 
-        <a href="https://www.linkedin.com/in/danferth/" target="_blank">
+        <a
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/danferth/"
+          target="_blank"
+        >
           <LinkedIn className={svgStyles} />
         </a>
       </div>
