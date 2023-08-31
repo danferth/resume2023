@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LinkedIn from "../components/linkedin";
 import GitHub from "../components/github";
 
@@ -6,23 +5,24 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
 
-  const svgStyles = "w-5 h-5 fill-lime-700 hover:fill-sky-600 transition";
+  const svgStyles =
+    "w-5 h-5 fill-lime-600 hover:fill-sky-600 dark:fill-lime-300 dark:hover:fill-sky-300 transition";
 
   return (
     <div
       className="footer 
-    bg-sky-100 lg:bg-gradient-to-t lg:from-sky-200 lg:to-white 
+    bg-sky-100 dark:bg-sky-700 lg:bg-gradient-to-t lg:from-sky-200 lg:to-white  lg:dark:from-sky-700  lg:dark:to-slate-800 
     rounded-tl-lg rounded-tr-lg lg:rounded-none
      text-center 
      py-5 md:pb-8
      mx-4 sm:mx-8 md:mx-16 lg:mx-0
      flex flex-col justify-center align-center"
     >
-      <p className="text-sm text-slate-500 font-light mb-3">
+      <p className="text-sm text-slate-500 dark:text-slate-300 font-light mb-3">
         &copy; {year}{" "}
         <a
           rel="noreferrer"
-          className="hover:text-sky-600"
+          className="hover:text-sky-600 dark:hover:text-sky-300"
           href="https://danferth.dev"
           target="_blank"
         >
