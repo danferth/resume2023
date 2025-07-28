@@ -23,7 +23,7 @@ export default function Home() {
               Dan Klotz
             </h1>
             <h2 className="italic font-light text-xs md:text-sm text-slate-400 lg:font-extralight lg:text-sm">
-              ( aka Danferth )
+              Lead Developer & Graphic Desiner
             </h2>
           </div>
           <a
